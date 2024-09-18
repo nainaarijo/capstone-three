@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.input-form{
+    background: none;
+    height: 50px;
+}
+
+
+
+.hero-card{
+    background-color: #ccdff6;
+}
+
+.search-icon{
+   left: 20%;
+}
+
+.ul-list{
+    margin-left: 20%;
+}
+
+.card-mac{
+    background-color: #1e4e65;
+}
+.nav-logo{
+    transition: all 0.3s;
+}
+.nav-logo:hover{
+    scale: 1.2 !important;
+}
+.fs-7{
+    font-size: 12px;
+}
+.input-size{
+    width: 500px;
+    color: white;
+}
+.input-size::placeholder{
+    font-size: 18px;
+    padding: 5px 5px;
+}
+.input-find{
+    top: 20%;
+    left: 3%;
+
+}
+
+.camera-section{
+  background-color: #ccdff6;
+}
+
+.footer{
+  background-color: #f5f7fa;
+}
+
+.footer-2{
+  background-color: #222934;
+}
+
+/* sign-in-page */
+
+.sign-in-form{
+  background-color: #ccdff6;
+}
+
+/* sign up page */
+.card-section{
+  background-color: #bdd6f2;
+}
+
+
+/* laptop animation */
+.laptop{
+    animation: laptop 9s ease 0s infinite normal none;
+}
+
+    
+
+
+
+@keyframes laptop {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateY(-45px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateY(-24px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateY(-12px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateY(-6px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateY(-4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87% {
+      animation-timing-function: ease-out;
+      transform: translateY(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
