@@ -14,6 +14,6 @@ if(email && password){
     arrayUsers.push(objUsers)
     let userDetails = JSON.stringify(arrayUsers)
     localStorage.setItem('user',userDetails)
-    window.location.href = "/pages/sign-up.html"
+    window.location.href = "/pages/sign-in.html"
 }
 })
