@@ -76,6 +76,14 @@
 .laptop{
     animation: laptop 9s ease 0s infinite normal none;
 }
+.hover-cards{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; 
+}
+
+.hover-cards:hover{
+  transform: translateY(-5px) scale(0.1);
+}
 
     
 
